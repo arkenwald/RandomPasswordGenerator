@@ -1,4 +1,4 @@
-# randompasswordgen
+# RandomPasswordGenerator
 
 Description
 
