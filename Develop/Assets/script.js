@@ -23,24 +23,24 @@ function generatePassword() {
   var charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
 
   //Defining character types
-  var charSet = "";
+  var characterSet = "";
   var charTypeLower = charType.toLowerCase();
   if (charTypeLower === "lowercase") {
-    charSet = "abcdefghijklmnopqrstuvwxyz";
+    characterSet = "abcdefghijklmnopqrstuvwxyz";
   } else if (charTypeLower === "uppercase") {
-    charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    characterSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   } else if (charTypeLower === "numeric") {
-    charSet = "0123456789";
+    characterSet = "0123456789";
   } else if (charTypeLower === "special") {
-    charSet = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+    characterSet = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   }
   //Return value of generated password at random
-  var retVal = "";
+  var returnVal = "";
   for (var i = 0; i < length; i++) {
     //Chooses the character at random from the index of the array
-    retVal += charSet.charAt(Math.floor(Math.random() * charSet.length));
+    returnVal += characterSet.charAt(Math.floor(Math.random() * characterSet.length));
   }
-  return retVal;
+  return returnVal;
 
 }
 
