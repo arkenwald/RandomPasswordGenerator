@@ -41,6 +41,9 @@ https://github.com/pnguyen412
 
 Website Resources:
 
+https://www.w3schools.com/js/js_math.asp
+
+https://www.w3schools.com/jsref/jsref_charat.asp
 
 License
 
