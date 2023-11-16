@@ -34,6 +34,7 @@ Screenshot of Live Page:
 
 
 Credits
+
 Collaborated with:
 
 https://github.com/pnguyen412
@@ -42,6 +43,7 @@ Website Resources:
 
 
 License
+
 MIT License
 
 Copyright (c) 2023, Peter Tong
