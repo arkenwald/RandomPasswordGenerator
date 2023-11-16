@@ -17,14 +17,14 @@ document.getElementById(placeholder).value = password;
 // Generating the Password
 function generatePassword() {
 
-  var length = Number(prompt("How many characters will your password be? Enter a number between 8 and 128"));
+  let length = Number(prompt("How many characters will your password be? Enter a number between 8 and 128"));
 
   //Prompting for character type
-  var charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
+  let charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
 
   //Defining character types
-  var characterSet = "";
-  var charTypeLower = charType.toLowerCase();
+  let characterSet = "";
+  let charTypeLower = charType.toLowerCase();
   if (charTypeLower === "lowercase") {
     characterSet = "abcdefghijklmnopqrstuvwxyz";
   } else if (charTypeLower === "uppercase") {
@@ -35,8 +35,8 @@ function generatePassword() {
     characterSet = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   }
   //Return value of generated password at random
-  var returnVal = "";
-  for (var i = 0; i < length; i++) {
+  let returnVal = "";
+  for (let i = 0; i < length; i++) {
     //Chooses the character at random from the index of the array
     returnVal += characterSet.charAt(Math.floor(Math.random() * characterSet.length));
   }
