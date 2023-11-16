@@ -14,27 +14,15 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
+// generate password
 function generatePassword() {
-  /*
   //your code goes here
-  let chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let passwordLength = 12;
-  let password = "";
-  for (let i = 0; i <= passwordLength; i++) {
-    let randomNumber = Math.floor(Math.random() * chars.length);
-    password += chars.substring(randomNumber, randomNumber + 1);
-  }
-  document.getElementById("password").value = password;
-} 
-*/
 
-var length = Number(prompt("How many characters will your password be? Enter a number between 8 and 128"));
+  var length = Number(prompt("How many characters will your password be? Enter a number between 8 and 128"));
 
-//ask for character type
-var charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
+  //ask for character type
+  var charType = prompt("Enter a character type: special, numeric, uppercase, lowercase.");
 
-//generate password
-function generatePassword() {
   //evaluate character type
   var charSet = "";
   var charTypeLower = charType.toLowerCase();
@@ -54,16 +42,15 @@ function generatePassword() {
     retVal += charSet.charAt(Math.floor(Math.random() * charSet.length));
   }
   return retVal;
-}
 
-alert(generatePassword());
+}
 
 //make password appear in display box
 document.getElementById("password").value = password;
 
 //function to copy password to clipboard
-function copyPassword() {}
+/*function copyPassword() {
   document.getElementById("password").select();
   document.execCommand("Copy");
   alert("Password copied to clipboard!");
-}
+}*/
