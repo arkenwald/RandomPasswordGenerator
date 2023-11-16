@@ -21,9 +21,9 @@ https://github.com/arkenwald/randompasswordgen
 
 Screenshot of Live Page:
 
-![screenshot1](https://github.com/arkenwald/randompasswordgen/assets/149994852/ee5323b1-120a-4a0d-bd82-45a6f0feb829)
+![screenshot1](https://github.com/arkenwald/randompasswordgen/assets/149994852/50a7adaa-6355-4734-9ca1-c97eef929b8a)
 
-![screenshot2](https://github.com/arkenwald/randompasswordgen/assets/149994852/594902ee-47f7-45de-aad7-271e4f393619)
+![screenshot2](https://github.com/arkenwald/randompasswordgen/assets/149994852/0d397055-479c-409e-9f67-937cf0db3098)
 
 Credits
 Collaborated with:
