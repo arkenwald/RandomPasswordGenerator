@@ -13,6 +13,7 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+document.getElementById(placeholder).value = password;
 
 // generate password
 function generatePassword() {
@@ -47,10 +48,3 @@ function generatePassword() {
 
 //make password appear in display box
 document.getElementById("password").value = password;
-
-//function to copy password to clipboard
-/*function copyPassword() {
-  document.getElementById("password").select();
-  document.execCommand("Copy");
-  alert("Password copied to clipboard!");
-}*/
