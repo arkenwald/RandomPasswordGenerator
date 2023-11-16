@@ -13,17 +13,18 @@ To install the project, I've initiated my local working folder into a GitHub Rep
 Usage
 Live URL:
 
-https://arkenwald.github.io/portfolio/
+https://arkenwald.github.io/RandomPasswordGenerator/
 
 GitHub Repository:
 
-https://github.com/arkenwald/randompasswordgen
+https://github.com/arkenwald/RandomPasswordGenerator
 
 Screenshot of Live Page:
 
-![screenshot1](https://github.com/arkenwald/randompasswordgen/assets/149994852/50a7adaa-6355-4734-9ca1-c97eef929b8a)
+![screenshot1](https://github.com/arkenwald/RandomPasswordGenerator/assets/149994852/820f5ff3-1d48-4816-a3e4-2a6a24dc8786)
 
-![screenshot2](https://github.com/arkenwald/randompasswordgen/assets/149994852/0d397055-479c-409e-9f67-937cf0db3098)
+![screenshot2](https://github.com/arkenwald/RandomPasswordGenerator/assets/149994852/9a2e0fc9-3e3c-4106-921f-2ba6680c101c)
+
 
 Credits
 Collaborated with:
