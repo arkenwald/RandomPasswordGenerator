@@ -1,2 +1,0 @@
-# RandomPasswordGenerator
-Challenge 02
