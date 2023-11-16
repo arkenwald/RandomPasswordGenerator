@@ -18,6 +18,8 @@ The user must click on Generate Password to generate a randomized password with 
 
 The user may select from Special Characters, Lowercase Letters, Uppercase Letters, as well as Numbers.
 
+This web application will provide the end-user the ability to generate a strong randomized password for better security.
+
 Live URL:
 
 https://arkenwald.github.io/RandomPasswordGenerator/
